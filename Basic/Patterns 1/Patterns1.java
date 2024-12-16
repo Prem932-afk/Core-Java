@@ -7,7 +7,7 @@ class Patterns1
     {
         for(int j=1;j<=5;j++)
         {
-            System.out.print("*");
+            System.out.print('A'+ j);
         }
         System.out.println(" ");
     }
