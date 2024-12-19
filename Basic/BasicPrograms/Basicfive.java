@@ -12,5 +12,6 @@ class Basicfive
         b=sc.nextFloat();
         float c=a+b;
         System.out.println(c);
+        sc.close();
     }
 }

@@ -24,6 +24,7 @@ class Basicthirten
         f=sc.nextFloat();
         float g=a*b+(c-d)/e+f;
         System.out.println(g);
+        sc.close();
     }
 }
 //8*1+(4-2)/1+6

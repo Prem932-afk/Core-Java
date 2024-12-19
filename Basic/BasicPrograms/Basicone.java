@@ -12,5 +12,6 @@ class basicone {
       int var2 = var3.nextInt();
       int var4 = var1 + var2;
       System.out.println(var4);
+      var3.close();
    }
 }

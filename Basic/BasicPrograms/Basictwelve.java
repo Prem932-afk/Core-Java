@@ -24,6 +24,7 @@ class Basictwelve
         f=sc.nextFloat();
         float g=a*b-(c/d)-e+f;
         System.out.println(g);
+        sc.close();
     }
 }
 //4.5*1.2-(82/2)-5.6 +1.234  

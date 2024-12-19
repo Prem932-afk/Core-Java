@@ -22,5 +22,6 @@ class Basiceight
         e=sc.nextInt();
         int f=a+b+c+d+e;
         System.out.println(f);
+        sc.close();
     }
 }

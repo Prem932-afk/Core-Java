@@ -24,6 +24,7 @@ class Basiceleven {
         f = sc.nextFloat();
         float g = a * (b - c) / d + e - f;
         System.out.println(g);
+        sc.close();
     }
 }
 // 1.6*(12-2)/2+7.8-1.5

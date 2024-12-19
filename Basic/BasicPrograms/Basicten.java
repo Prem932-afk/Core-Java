@@ -8,7 +8,7 @@ class Basicten
         float b;
         float c;
         float d;
-        float e;
+
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter your first number");
         a=sc.nextFloat();
@@ -18,10 +18,10 @@ class Basicten
         c=sc.nextFloat();
         System.out.println("Enter your fourth number");
         d=sc.nextFloat();
-        System.out.println("Enter your fivth number");
-        e=sc.nextFloat();
+        
         float f=a*b-c/d;
         System.out.println(f);
+        sc.close();
     }
 }
 //1.2*6.7-4.5/2  
