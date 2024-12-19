@@ -14,6 +14,7 @@ class malefemalcheck
     {
         System.out.println("Female");
     }
+    sc.close();
 
     }
     

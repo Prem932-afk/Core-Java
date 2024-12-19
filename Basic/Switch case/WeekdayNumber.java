@@ -36,6 +36,6 @@ public class WeekdayNumber {
                 System.out.println("Invalid input. Please enter a number between 1 and 7.");
                 break;
         }
-
+        scanner.close();
     }
 }

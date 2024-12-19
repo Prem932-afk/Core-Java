@@ -51,7 +51,7 @@ public class MonthCheck {
                 break;
         }
 
-       
+        scanner.close();
     }
 }
 

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 class Patterns3
 {
      
@@ -30,4 +30,9 @@ class Patterns3
         }
     }
 }
+    ***** 
+    **** 
+    *** 
+    ** 
+    * 
  */

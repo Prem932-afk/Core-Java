@@ -35,5 +35,6 @@ public class BMICalculator {
          {
             System.out.println("Obesity"); 
         }
+        scanner.close();
     }
 }

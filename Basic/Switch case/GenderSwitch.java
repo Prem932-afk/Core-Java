@@ -20,6 +20,7 @@ public class GenderSwitch {
                 System.out.println("Invalid input. Please enter 'M' or 'F'.");
                 break;
         }
+        scanner.close();
 
         
     }

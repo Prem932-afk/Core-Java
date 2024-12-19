@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 class Patterns5
 {
     public static void main(String[] args) {
@@ -24,3 +24,10 @@ class Patterns5
         }
     }
 }
+/*
+       54321 
+       54321 
+       54321 
+       54321 
+       54321 
+ */

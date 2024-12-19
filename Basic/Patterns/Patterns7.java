@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 class Patterns7 
 {
  
@@ -39,3 +39,10 @@ class Patterns7
 
     }    
 }
+/*
+    * 
+   ** 
+  *** 
+ **** 
+***** 
+ */

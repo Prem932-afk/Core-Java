@@ -27,7 +27,7 @@ public class TimeOfDayGreeting
         {
             System.out.println("Invalid input. Please enter 'morning', 'afternoon', or 'evening'.");
         }
-
+        scanner.close();
         
     }
 }

@@ -16,6 +16,7 @@ class Maxten
     {
          System.out.println("Numbe is minimum of 10;");
     }
+    sc.close();
   }
 
 }

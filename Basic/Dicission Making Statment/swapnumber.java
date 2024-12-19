@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 class swapnumber{
     public static void main(String args[])
     {
@@ -9,4 +9,5 @@ class swapnumber{
         a=a-b;
         System.out.println("After swap"+a+" "+b);
     }
+
 }

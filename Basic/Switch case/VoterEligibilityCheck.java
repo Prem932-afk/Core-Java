@@ -26,6 +26,6 @@ public class VoterEligibilityCheck {
                 System.out.println("You are not eligible to vote without a valid voter ID.");
                 break;
         }
-
+        scanner.close();
     }
 }

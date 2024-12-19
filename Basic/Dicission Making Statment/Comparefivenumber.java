@@ -40,6 +40,7 @@ class Comparefivenumber
     {
         System.out.println("Input not matched");
     }
+    sc.close();
   }
 }
 

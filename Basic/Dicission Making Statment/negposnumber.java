@@ -1,18 +1,20 @@
 import java.util.Scanner;
-class dividenumber
+class negposnumber
 {
     public static void main(String[] args) {
         int n;
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter your number");
         n=sc.nextInt();
-        if(n%5==0 && n%11==0)
+        if(n<0)
         {
-            System.out.println("Number is divisible by 11 and 5");
+            System.out.println("Negative Number");
         }
         else
         {
-            System.out.println("Numbe is not divisivle by 11 and 5");
+            System.out.println("Positive Number");
         }
+        sc.close();
+
     }
 }

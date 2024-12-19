@@ -38,5 +38,6 @@ class weekday
         {
             System.out.println("Input not matched");
         }
+        sc.close();
     }
 }

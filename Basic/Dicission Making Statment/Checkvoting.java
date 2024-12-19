@@ -15,5 +15,6 @@ class Checkvoting{
         {
             System.out.println("You can't vote");
         }
+        sc.close();
     }
 }

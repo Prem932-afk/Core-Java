@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 class Patterns2
 {
     public static void main(String[] args) {
@@ -27,4 +27,11 @@ class Patterns2
 //         }
 //     }
 // }
+/*
+          *
+          **
+          ***
+          ****
+          *****
+ */
 

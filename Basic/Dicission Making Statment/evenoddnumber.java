@@ -1,19 +1,19 @@
 import java.util.Scanner;
-class negposnumber
+class evenoddnumber
 {
     public static void main(String[] args) {
         int n;
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter your number");
         n=sc.nextInt();
-        if(n<0)
+        if(n%2==0)
         {
-            System.out.println("Negative Number");
+            System.out.println("Number is even");
         }
         else
         {
-            System.out.println("Positive Number");
+            System.out.println("Number is odd");
         }
-
+        sc.close();
     }
 }

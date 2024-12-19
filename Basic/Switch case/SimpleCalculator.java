@@ -23,7 +23,7 @@ public class SimpleCalculator {
                 System.out.println("Invalid operation. Supported operation: '+'");
                 break;
         }
-
+        scanner.close();
        
     }
 }

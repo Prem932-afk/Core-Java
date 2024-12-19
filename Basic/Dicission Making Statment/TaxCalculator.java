@@ -25,6 +25,7 @@ public class TaxCalculator {
         {
             tax =income  * 0.30;
         }
+        scanner.close();
 
        
     }

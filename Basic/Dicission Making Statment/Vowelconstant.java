@@ -1,19 +1,19 @@
-
 import java.util.Scanner;
-class upperlowercase{
+class Vowelconstant{
     public static void main(String[] args) {
         char ch;
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter your charector");
         ch=sc.next().charAt(0);
 
-        if(ch>='A'&& ch<='Z' )
+        if(ch=='a'|| ch=='e'|| ch=='i'|| ch=='o'|| ch=='u' )
         {
-            System.out.println("Charector is Uper case");
+            System.out.println("Charector is Vowel");
         }
         else
         {
-            System.out.println("Charector is lower case");
+            System.out.println("Charector is consonent");
         }
+        sc.close();
     }
 }

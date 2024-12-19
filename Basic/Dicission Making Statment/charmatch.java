@@ -1,5 +1,4 @@
 
-
 import java.util.*;
 class charmatch 
 {
@@ -24,6 +23,7 @@ class charmatch
     {
         System.out.println("Input not match");
     }
+    sc.close();
 
     }
     

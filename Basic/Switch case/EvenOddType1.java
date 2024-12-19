@@ -49,5 +49,6 @@ public class EvenOddType1 {
          {
             System.out.println("Input not matched");
          }
+         scanner.close();
     }
 }

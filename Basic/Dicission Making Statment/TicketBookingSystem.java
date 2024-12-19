@@ -37,6 +37,7 @@ public class TicketBookingSystem
 
         // Display the final ticket price
         System.out.printf("The final ticket price is: $%.2f%n", finalPrice);
+        scanner.close();
 
       
     }
