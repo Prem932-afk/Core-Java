@@ -1,12 +1,12 @@
-import java.util.Scanner;
+
 class Method2 
 {
   public static void main(String[] args) 
   {
       A p=new A();
-      p.show();  
+      System.out.println(p.show()); 
       B p1=new B();
-      p1.show();
+      System.out.println(p1.show());
   }    
 }
 class A

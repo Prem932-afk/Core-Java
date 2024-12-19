@@ -1,13 +1,13 @@
-import java.util.Scanner;
+
 class Method1
 {
     public static void main(String[] args) {
        A p=new A();
-       p.show();
+       System.out.println(p.show());
        B p1=new B();
-       p1.show();
+       System.out.println(p1.show());
        C p2=new C();
-       p2.show();
+       System.out.println(p2.show());
         
     }
 }

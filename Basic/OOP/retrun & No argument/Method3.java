@@ -1,68 +1,56 @@
 import java.util.Scanner;
-class Method3 
-{
-  public static void main(String[] args)
- {
-    
-   A p=new A();
-   p.add();
-   p.mul();
-   p.sub();
-   p.div();
-   B p1=new B();
-   p1.even();
-   C p2=new C();
-   p2.odd();
-  }    
-}
 class A
 {
 
     int add()
-    {
+    { 
+       System.out.println("Addtion Operation !");
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter first number");
         int a=sc.nextInt();
         System.out.println("Enter second number");
         int b=sc.nextInt();
         int c= a+b;
-        System.out.println(c);
+        System.out.println("Adition value"+c);
         return c;
         
     }
     int mul()
     {
+        System.out.println("Multiplixaion Operation !");
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter first number");
         int a=sc.nextInt();
         System.out.println("Enter second number");
         int b=sc.nextInt();
         int c= a*b;
-        System.out.println(c);
+        System.out.println("Multiple value : "+c);
         return c;
         
     }
     int div()
     {
+       System.out.println("Division Operation !");
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter first number");
         int a=sc.nextInt();
         System.out.println("Enter second number");
         int b=sc.nextInt();
         int c= a/b;
-        System.out.println(c);
+        System.out.println("division value"+c);
         return c;
         
     }
     int sub()
     {
+       System.out.println("Substraction Operation !");
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter first number");
         int a=sc.nextInt();
         System.out.println("Enter second number");
         int b=sc.nextInt();
         int c= a-b;
-        System.out.println(c);
+        System.out.println("substraction value"+c);
         return c;
         
     }
@@ -71,6 +59,7 @@ class B
 {
        int even()
        {
+          System.out.println("Now check even number or not !");
           Scanner sc=new Scanner(System.in);
           System.out.println("Enter your number");
           int n=sc.nextInt();
@@ -80,12 +69,14 @@ class B
           }
          
           return n;
+          
        }
 }
 class C
 {
        int odd()
        {
+          System.out.println("Now check odd number or not !");
           Scanner sc=new Scanner(System.in);
           System.out.println("Enter your number");
           int n=sc.nextInt();
@@ -95,6 +86,27 @@ class C
           }
           
           return n;
+          
        }
+}
+class Method3 
+{
+  public static void main(String[] args)
+ {
+    
+   A p=new A();
+   System.out.println( p.add());
+   System.out.println(p.mul());
+   System.out.println(  p.sub());
+   System.out.println(p.div());
+
+   B p1=new B();
+   System.out.println( p1.even());
+   
+   C p2=new C();
+   System.out.println(p2.odd());
+   
+  
+  }    
 }
 
