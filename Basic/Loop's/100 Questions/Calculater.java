@@ -5,6 +5,7 @@ public class Calculater
     Scanner sc=new Scanner(System.in);
     System.out.println("Enter you choise :");
     String s=sc.nextLine();
+   
     if(s.equals("Adittion"))
     {
                System.out.println("Enter first Number :");
@@ -45,5 +46,6 @@ public class Calculater
     {
         System.out.println("Input not matched : sorry!");
     }
+    sc.close();
   }   
 }

@@ -10,6 +10,7 @@ class rectangleparameter
     double breath=sc.nextDouble();
     double parameter=2* (length+breath);
     System.out.println("Rectamge parameter : " + parameter);
+    sc.close();
       
  }   
 }

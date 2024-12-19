@@ -9,6 +9,8 @@ class Arearectangle
         System.out.println("Enter rectangle breath :");
         double breath=sc.nextDouble();
         double area=length*breath;
-        System.out.println("Rectamge parameter : " + area);   
+        System.out.println("Rectamge parameter : " + area); 
+        sc.close();
+        
     }
 }

@@ -9,6 +9,7 @@ class Fahrenheitcelsius
 
     double Celsius=(fahrenheit-32)*5/9;
     System.out.println("Your tempretor : "+Celsius);
+    sc.close();
     }
 
 }

@@ -14,5 +14,6 @@ class Circulediacirfre
              System.out.println("Circule diameter :"+diameter);
              System.out.println("Circule circmference :"+circumference);
              System.out.println("Circule area :"+area);
+             sc.close();
         }
     }

@@ -12,6 +12,6 @@ import java.util.Scanner;
 
      System.out.println("Length in meters: " + meter);
      System.out.println("Length in kilometers: " + kilometer);
-    
+     sc.close();
    }    
 }

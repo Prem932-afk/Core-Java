@@ -9,5 +9,6 @@ public class Sumtwonumber
     int b=sc.nextInt();
     int  sum=a+b;
     System.out.println("Sum of two number:"+sum);
+    sc.close();
  }   
 }
