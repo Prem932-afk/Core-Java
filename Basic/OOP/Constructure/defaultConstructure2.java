@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 class defaultConstructure2 {
     public static void main(String[] args) {
         person p=new person();

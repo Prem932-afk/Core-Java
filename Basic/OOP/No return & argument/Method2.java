@@ -1,6 +1,5 @@
 
 import java.util.*;
-
 class A
 {   
      void add(int a, int b)
@@ -50,6 +49,7 @@ class D
             p3.mul(a,b);
             D p4=new D();
             p4.div(a, b);
+            sc.close();
 
         }
 

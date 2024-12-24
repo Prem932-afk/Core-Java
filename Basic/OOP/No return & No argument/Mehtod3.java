@@ -1,21 +1,21 @@
-import java.util.Scanner;
+
 class Mehtod3
 {
  public static void main(String[] args) 
  {
      A m=new A();
-     m.show1();
+       m.show1();
      B m1=new B();
-     m1.show2();
+       m1.show2();
      C m2=new C();
-     m2.show3();
-     m2.show4();
-     m2.show5();
-     m2.show6();
+       m2.show3();
+       m2.show4();
+       m2.show5();
+       m2.show6();
      D m3=new D();
-     m3.show7();
-     m3.show8();
-     m3.show9();
+       m3.show7();
+       m3.show8();
+       m3.show9();
  }   
 }
 class A
