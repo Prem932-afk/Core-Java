@@ -1,65 +1,54 @@
-public class Method11 {
+class Method11 {
     public static void main(String[] args) {
-         D d=new D();
-         d.show(3);
-         d.show2();
-         d.show3();
-         d.show4(2);
-
+        D d=new D();
+        d.method1();
+        d.method2();
+        d.method3();
+        d.method4();
     }
 }
 class A
 {
-     int show(int a)
-     {
-          a=a;
-          System.out.println(a);
-          return a;
-     }
+    void method1()
+    {
+        System.out.println("method 1");
+    }
 }
 class B extends A
 {
-       int show2()
-     {
-          int a=10;
-          System.out.println(a);
-          return a;
-         
-     }
+    void method2()
+    {
+        System.out.println("method 2");
+    }
 }
 class C extends B
 {
-     void show3()
-     {
-          int a=10;
-          System.out.println(a);
-          
-     }
+    void method3()
+    {
+        System.out.println("method 3");
+    }
 }
 class D extends C
 {
-     void show4(int a)
-     {
-          a=a;
-          System.out.println(a);
-          
-     }
+    void method4()
+    {
+        System.out.println("method 4");
+    }
 }
 
 
 
-
+// getter and setter method :
 // multilevel inheritance :
 // A 
-// 	method1 :return and argument :covariant 
+// 	method1
 
 // B 
-// 	method2 :return and no argument 
+// 	method2 
 
 // C
-// 	method3:no return and no argument 
+// 	method3
 
 // D
-// 	method4 :no return and argument 
-
+// 	method4 
 // child k through access 
