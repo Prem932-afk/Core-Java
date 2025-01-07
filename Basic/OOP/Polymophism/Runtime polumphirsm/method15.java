@@ -1,32 +1,31 @@
 public class method15 {
-    
-
-    
-    public static void main(String[] args) {
-      new c(35);
      
-    }
-   }
-   class A
-   {
-       A(int a)
-       {
-           System.out.println("A :"+a);
+        public static void main(String[] args) {
+          new c(35);
+         
+        }
        }
-   }
-   class B extends A
-   {
-       B(int b)
+       class A
        {
-        super(33);
-        System.out.println("B :"+b);
+           A(int a)
+           {
+               System.out.println("A :"+a);
+           }
        }
-   }
-   class c extends B
-   {
-       c(int c)
+       class B extends A
        {
-        super(34);
-        System.out.println("C :"+c);
+           B(int b)
+           {
+            super(33);
+            System.out.println("B :"+b);
+           }
        }
-   }
+       class c extends B
+       {
+           c(int c)
+           {
+            super(34);
+            System.out.println("C :"+c);
+           }
+       }
+    

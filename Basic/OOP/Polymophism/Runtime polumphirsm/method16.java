@@ -1,15 +1,15 @@
 public class method16 {
     
+
     
-  
     public static void main(String[] args) {
-      new c(33);
+      new c(35);
+     
     }
    }
    class A
    {
        A(int a)
-
        {
            System.out.println("A :"+a);
        }
@@ -18,15 +18,15 @@ public class method16 {
    {
        B(int b)
        {
-        super(11);
-        System.out.println("B : "+b);
+        super(33);
+        System.out.println("B :"+b);
        }
    }
    class c extends A
    {
        c(int c)
        {
-        super(21);
-        System.out.println("C : "+c);
+        super(34);
+        System.out.println("C :"+c);
        }
    }
