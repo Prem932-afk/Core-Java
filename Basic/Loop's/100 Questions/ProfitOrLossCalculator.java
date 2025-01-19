@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class ProfitOrLossCalculator 
@@ -41,3 +42,6 @@ public class ProfitOrLossCalculator
         scanner.close();
     }
 }
+
+
+//Write a java program to check profit or loss 
