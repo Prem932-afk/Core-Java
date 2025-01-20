@@ -66,3 +66,6 @@ public class StudentGradeCalculator
         scanner.close();
     }
 }
+
+
+//.Write a java program to  input marks of five subjects and calculate percentage and grade according to marks ?
