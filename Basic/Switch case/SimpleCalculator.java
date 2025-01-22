@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
-public class SimpleCalculator {
-    public static void main(String[] args) {
+public class SimpleCalculator 
+{
+    public static void main(String[] args) 
+    {
         Scanner scanner = new Scanner(System.in);
 
         // Prompt user for two numbers
@@ -15,7 +17,8 @@ public class SimpleCalculator {
         char operator = scanner.next().charAt(0);
 
         // Perform calculation using switch
-        switch (operator) {
+        switch (operator) 
+        {
             case '+':
                 System.out.println("Result: " + (a + b));
                 break;
@@ -27,4 +30,5 @@ public class SimpleCalculator {
        
     }
 }
+//Write a java program to create Simple Calculator using switch case.
 
