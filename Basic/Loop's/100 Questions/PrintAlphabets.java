@@ -1,16 +1,17 @@
+
 public class PrintAlphabets 
 {
     public static void main(String[] args) 
     {
-        // Initialize the counter variable to the ASCII value of 'a'
+        // Initialize a char variable to 'a'
         char ch = 'a';
 
-        // Use a while loop to print alphabets from 'a' to 'z'
+        // While loop to print alphabets from 'a' to 'z'
         while (ch <= 'z') 
         {
             System.out.print(ch + " ");
-            ch++;  // Move to the next character
+            ch++; // Move to the next alphabet
         }
     }
 }
-
+//Write a C program to print all alphabets from a to z. - using while loop
