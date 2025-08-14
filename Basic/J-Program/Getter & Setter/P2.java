@@ -4,7 +4,7 @@
 
 // Create a class Student with fields id (int) and name (String). Initialize these fields using a constructor and then write getter and setter methods.
 
-class Demo
+class P2
 {
     public static void main(String[] args) 
     {
