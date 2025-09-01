@@ -1,24 +1,39 @@
-// 9. Count the Occurrences of a Given Element in an Unsorted Array : 
-// Write a program to count how many times a specific element occurs in an unsorted array. Input: arr = [1, 2, 3, 1, 2,1], target = 1 Output: 3
-public class P10
+
+// 10. Find the First and Last Occurrence of an Element in a Sorted Array :
+
+// Given a sorted array, find the indices of the first and last occurrence of a target element.
+
+// Input: arr = [1, 2, 2, 2, 3, 4], target = 2
+// Output: First = 1, Last = 3
+public class P10 
 {
-    public static void main(String[] args) 
-    {
-        int[] arr = {1, 2, 3, 1, 2, 1};  // Input array
-        int target = 1;                  // Element to count
+  public static void main(String[] args) 
+  {
+       int arr[]={1, 2, 2, 2, 3, 4};
+       int target=2;
 
-        int count = 0;
+       int first = -1;
+       int last = -1;
 
-        // Loop through array and count occurrences
-        for (int i = 0; i < arr.length; i++) 
-        {
-            if (arr[i] == target) 
+       for(int i=0; i<arr.length; i++)
+       {
+            if(arr[i] == target)
             {
-                count++;
+                if(first == -1)  // first time found
+                {
+                    first = i;
+                }
+                last = i; // keep updating until last occurrence
             }
-        }
+       }
 
-        // Print result
-        System.out.println(count);
-    }
+       if(first == -1)
+       {
+            System.out.println("Element not found");
+       }
+       else
+       {
+            System.out.println("First = " + first + ", Last = " + last);
+       }
+  }    
 }
