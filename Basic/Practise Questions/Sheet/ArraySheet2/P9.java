@@ -4,66 +4,90 @@
 
 // Input: arr = [5, 9, 11, 2], key = 11
 // Output: Yes
+import java.util.Scanner;
 
-public class P9
+class P9 
 {
-    public static void main(String[] args) 
+    public static void main(String args[]) 
     {
-        int[] arr = {5, 9, 11, 2};  // Input array
-        int key = 11;               // Element to search
-
-        // Step 1: Sort array using Bubble Sort
-        bubbleSort(arr);
-
-        // Step 2: Perform Binary Search
-        boolean found = binarySearch(arr, key);
-
-        // Step 3: Print result
-        if (found) 
-        {
-            System.out.println("Yes");
-        } 
-        else 
-        {
-            System.out.println("No");
-        }
+        Search s = new Search();
+        s.setdata();
+        s.getdata();
     }
+}
 
-    // Bubble Sort function
-    public static void bubbleSort(int[] arr) 
+class Search 
+{
+    int arr[] = new int[4];
+    int key;  // ✅ make key a class variable
+
+    void setdata() 
     {
-        int n = arr.length;
-        for (int i = 0; i < n - 1; i++) 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 10 elements:");
+        for (int i = 0; i < arr.length; i++) 
         {
-            for (int j = 0; j < n - i - 1; j++) 
+            arr[i] = sc.nextInt();
+        }
+
+        System.out.println("Your array elements are:");
+        for (int i = 0; i < arr.length; i++) 
+        {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+
+        System.out.println("Enter the element to search:");
+        key = sc.nextInt();
+
+        // ✅ Sort array for binary search (bubble sort)
+        for (int x = 0; x < arr.length - 1; x++) 
+        {
+            for (int y = 0; y < arr.length - 1 - x; y++) 
             {
-                if (arr[j] > arr[j + 1]) 
+                if (arr[y] > arr[y + 1]) 
                 {
-                    // swap arr[j] and arr[j+1]
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
+                    int temp = arr[y];
+                    arr[y] = arr[y + 1];
+                    arr[y + 1] = temp;
                 }
             }
         }
     }
 
-    // Binary Search function
-    public static boolean binarySearch(int[] arr, int key) {
-        int left = 0;
-        int right = arr.length - 1;
+    void getdata() 
+    {
+        int i = 0;
+        int j = arr.length - 1;
+        int flag = 0;
+        int pos = 0;
 
-        while (left <= right) {
-            int mid = (left + right) / 2;
+        while (i <= j && flag == 0) 
+        {
+            int mid = (i + j) / 2;
 
-            if (arr[mid] == key) {
-                return true; // found
-            } else if (arr[mid] < key) {
-                left = mid + 1; // go right
-            } else {
-                right = mid - 1; // go left
+            if (arr[mid] == key) 
+            {
+                flag = 1;
+                pos = mid + 1; // position (1-based index)
+            } 
+            else if (arr[mid] > key) 
+            {
+                j = mid - 1;
+            } 
+            else 
+            {
+                i = mid + 1;
             }
         }
-        return false; // not found
+
+        if (flag == 0) 
+        {
+            System.out.println("Not Found");
+        } 
+        else 
+        {
+            System.out.println("Number found at position: " + pos);
+        }
     }
 }
