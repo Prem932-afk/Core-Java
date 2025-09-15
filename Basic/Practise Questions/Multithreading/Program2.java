@@ -1,16 +1,16 @@
-//2. Implements Runnable Interface
-
-class Program2 implements Runnable //1. Implements Runnable Interface
+//2. Performing single task from Multiple thread.
+public class Program2 extends Thread
 {
-    public void run()//2. Override voir method
+    public void run()
     {
-        System.out.println("Implemetn Runnable Interface");
+         System.out.println("Performing single task from Multiple thread");
     }
-    public static void main(String[] args) 
-    {
-        Program2 p=new Program2();
+     public static void main(String[] args) 
+     {
+         Program2 p=new Program2();
+          p.start();
 
-         Thread th=new Thread(p);//3. Create object thread class
-          th.start();//4.Start method
-    }
+         Program2 p1=new Program2();
+          p1.start();          
+     }
 }
