@@ -25,6 +25,8 @@ class P1
         System.out.println("Charector Value : "+ch); 
         System.out.println(" ");
 
+        sc.nextLine();
+
         System.out.println("Enter String name");
         String s=sc.nextLine();
         System.out.println("String Datatype :"+s); 
