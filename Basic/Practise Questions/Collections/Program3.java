@@ -1,24 +1,16 @@
-//3. Enumeration Cursore
-
-import java.util.Enumeration;
-import java.util.Vector;
-
+//3. Set
+import java.util.HashSet;
+import java.util.Set;
 public class Program3 
 {
-  public static void main(String[] args)
-  {
-     Vector v=new Vector<>();
-      v.add("Rahul");
-      v.add(100);
-      v.add(1.6);
+     public static void main(String[] args) 
+     {
+         Set s=new HashSet<>();
+           s.add("100");
+           s.add("100");
+           s.add(null);
+           s.add(null);
 
-      System.out.println(v);
-
-         Enumeration e=v.elements();
-
-         while(e.hasMoreElements())
-         {
-             System.out.println(e.nextElement());
-         }
-  }   
+           System.out.println(s);
+     }
 }
