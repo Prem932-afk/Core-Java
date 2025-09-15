@@ -1,32 +1,28 @@
-//1. ArrayList
+//1. Collection Arraylist
 
 import java.util.ArrayList;
 public class Program1 
 {
-    public static void main(String[] args) 
-    {
-        ArrayList al=new ArrayList<>();
-        al.add(100);
-        al.add(100);
-        al.add(null);
-        al.add(null);
-        al.add("hello");
-        al.add(1.0);
+   public static void main(String[] args) 
+   {
+       ArrayList al=new ArrayList<>();
+        al.add("100");
+        al.add("100");
+        al.add("null");
+        al.add("null");
+        al.add("Rahul");
 
         System.out.println(al);
 
-        System.out.println(".........................1.Way.................................................");
+        //1. Conataine
 
-        ArrayList al2=new ArrayList<>();
-        al2.add("Ram");
-        al2.add("Shyam");
-        al2.add("ravi");
+        System.out.println(al.contains("100"));
 
-        al.addAll(al2);
-        System.out.println(al);
+        //2. Size 
 
-        System.out.println(".........................2.Way.................................................");
+        System.out.println(al.size());
 
 
-    }
+        
+   }    
 }
