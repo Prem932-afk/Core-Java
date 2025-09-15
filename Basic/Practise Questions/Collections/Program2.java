@@ -1,28 +1,21 @@
-//2. Iterator cursor with list
+//1 List Create
 
-import java.util.List;
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.List;
 public class Program2 
 {
     public static void main(String[] args) 
     {
-       List l=new ArrayList<>();
-       l.add(100);
-       l.add("hello");
-       l.add("Shyam");
-       l.add(200);
+         List l=new ArrayList<>();
 
-       System.out.println(l);
+         l.add("100");
+         l.add("50");
+         l.add("Rahul");
+         l.add(null);
 
-       System.out.println("..................1.Use Iterator Curosor...............................");
+         System.out.println(l);
 
-           Iterator itr=l.iterator();
-           while(itr.hasNext())
-           {
-                System.out.println(itr.next());
-           }
-      
-       
+         System.out.println(l.get(1));
+           
     }
 }
