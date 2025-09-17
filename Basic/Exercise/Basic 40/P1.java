@@ -1,4 +1,4 @@
-  //1/ Write a Java program to Odd Even ?
+  //1. Write a Java program to Odd Even ?
 
   import java.util.*;
   class P1
