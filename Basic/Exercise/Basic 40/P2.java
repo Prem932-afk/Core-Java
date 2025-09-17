@@ -1,4 +1,4 @@
-//3. Write a Java program to N natural Number ?
+//2. Write a Java program to N natural Number ?
 
 import java.util.*;
 public class P2 
@@ -8,7 +8,7 @@ public class P2
       Scanner sc=new Scanner(System.in);
       System.out.println("Enter your number");
       int n=sc.nextInt();
-      
+
       for(int i=1; i<=n; i++)
       {
         System.out.println(i);
