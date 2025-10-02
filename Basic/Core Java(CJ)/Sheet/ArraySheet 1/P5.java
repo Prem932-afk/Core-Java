@@ -9,9 +9,27 @@ public class P5
   {
        int arr[]={1, 2, 3, 4};
        
-       for(int i=arr.length-1; i>=0; i--)
-       {
-         System.out.println(arr[i]);
-       }
+    //    for(int i=arr.length-1; i>=0; i--)
+    //    {
+    //      System.out.println(arr[i]);
+    //    }
+
+      int i=0;
+      int j=arr.length-1;
+      int temp=0;
+
+      while(i<j)
+      {
+         temp=arr[i];
+         arr[i]=arr[j];
+         arr[j]=temp;
+         i++;
+         j--;
+      }
+
+      for(int k=0; k<arr.length; k++)
+      {
+        System.out.println(arr[k]);
+      }
   }    
 }
