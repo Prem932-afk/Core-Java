@@ -13,5 +13,6 @@ public class P3
        {
           System.out.println(i);
        }
+       sc.close();
    }   
 }
