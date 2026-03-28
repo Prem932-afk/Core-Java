@@ -1,0 +1,14 @@
+import java.util.*;
+public class B10 
+{
+  public static void main(String[] args) 
+  {
+     Scanner sc=new Scanner(System.in);
+     System.out.println("Enter your charector");
+     char ch=sc.next().charAt(0);
+
+     int n=ch;
+
+     System.out.println("ASCII value of " + ch + " is : " + n);
+  }    
+}
