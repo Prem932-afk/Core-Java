@@ -10,5 +10,6 @@ public class B10
      int n=ch;
 
      System.out.println("ASCII value of " + ch + " is : " + n);
+     sc.close();
   }    
 }
