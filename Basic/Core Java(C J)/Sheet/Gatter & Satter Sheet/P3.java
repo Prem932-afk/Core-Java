@@ -1,6 +1,6 @@
 //Q.3
 
-//Create two interfaces Flyable and Swimmable. Define appropriate methods in each. Create a class Duck that implements both interfaces and demonstrates their usag
+//Create two interfaces Flyable and Swimmable. Define appropriate methods in each. Create a class Duck that implements both interfaces and demonstrates.
  
  
 public class P3 
